@@ -1,0 +1,66 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Migrations\20201216121159_SET_RELATIONSHIP_WITH_PRICE_IMAGE_FONT.cs" />
+    <Compile Remove="Migrations\20201216121159_SET_RELATIONSHIP_WITH_PRICE_IMAGE_FONT.Designer.cs" />
+    <Compile Remove="Migrations\20201217123814_ADD_DESIGN_TABLE.cs" />
+    <Compile Remove="Migrations\20201217123814_ADD_DESIGN_TABLE.Designer.cs" />
+    <Compile Remove="Migrations\20201223071233_ADD_USERIN_IN_TEMPLATE_TABLE.cs" />
+    <Compile Remove="Migrations\20201223071233_ADD_USERIN_IN_TEMPLATE_TABLE.Designer.cs" />
+    <Compile Remove="Migrations\20201223072038_ADD_USERID_IN_TEMPLATE_TABLE.cs" />
+    <Compile Remove="Migrations\20201223072038_ADD_USERID_IN_TEMPLATE_TABLE.Designer.cs" />
+    <Compile Remove="Migrations\20201224104441_ADD_RELATION_BETWEEN_TEMPLATE_AND_SUBCATEGORY.cs" />
+    <Compile Remove="Migrations\20201224104441_ADD_RELATION_BETWEEN_TEMPLATE_AND_SUBCATEGORY.Designer.cs" />
+    <Compile Remove="Migrations\20210103083613_ADD_FOLDER_USER_MAP_TABLE.cs" />
+    <Compile Remove="Migrations\20210103083613_ADD_FOLDER_USER_MAP_TABLE.Designer.cs" />
+    <Compile Remove="Migrations\20210103142016_IMAGE_FOLDER_DELETE_CASCADE.cs" />
+    <Compile Remove="Migrations\20210103142016_IMAGE_FOLDER_DELETE_CASCADE.Designer.cs" />
+    <Compile Remove="Migrations\20210103143212_IMAGE_FOLDER_DELETE_CASCADE.cs" />
+    <Compile Remove="Migrations\20210103143212_IMAGE_FOLDER_DELETE_CASCADE.Designer.cs" />
+    <Compile Remove="Migrations\20210103144830_APPLY_IMAGE_PRICE_DELETE_CONSTRAINT.cs" />
+    <Compile Remove="Migrations\20210103144830_APPLY_IMAGE_PRICE_DELETE_CONSTRAINT.Designer.cs" />
+    <Compile Remove="Migrations\20210103145248_REMOVE_IMAGE_FOLDER_FK.cs" />
+    <Compile Remove="Migrations\20210103145248_REMOVE_IMAGE_FOLDER_FK.Designer.cs" />
+    <Compile Remove="Migrations\20210104133253_Video_Table.cs" />
+    <Compile Remove="Migrations\20210104133253_Video_Table.Designer.cs" />
+    <Compile Remove="Migrations\20210105060751_ImageUserShareMapTable.cs" />
+    <Compile Remove="Migrations\20210105060751_ImageUserShareMapTable.Designer.cs" />
+    <Compile Remove="Migrations\20210105072551_Image_Folder_Relation.cs" />
+    <Compile Remove="Migrations\20210105072551_Image_Folder_Relation.Designer.cs" />
+    <Compile Remove="Migrations\20210105073622_Remove_FolderId_From_ImageUserShareMap.cs" />
+    <Compile Remove="Migrations\20210105073622_Remove_FolderId_From_ImageUserShareMap.Designer.cs" />
+    <Compile Remove="Migrations\20210105073823_Image_Folder_RelationUpdate.cs" />
+    <Compile Remove="Migrations\20210105073823_Image_Folder_RelationUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20210105074107_Image_Folder_RelationUpdate2.cs" />
+    <Compile Remove="Migrations\20210105074107_Image_Folder_RelationUpdate2.Designer.cs" />
+    <Compile Remove="Migrations\20210105074324_Image_Folder_RelationUpdate.cs" />
+    <Compile Remove="Migrations\20210105074324_Image_Folder_RelationUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20210105074652_Image_Folder_RelationUpdate.cs" />
+    <Compile Remove="Migrations\20210105074652_Image_Folder_RelationUpdate.Designer.cs" />
+    <Compile Remove="Migrations\20210108045658_CustomerHieght_Widht_Video.cs" />
+    <Compile Remove="Migrations\20210108045658_CustomerHieght_Widht_Video.Designer.cs" />
+    <Compile Remove="Migrations\20210111123753_PricingSections.cs" />
+    <Compile Remove="Migrations\20210111123753_PricingSections.Designer.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DD.Core\DD.Core.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AutoMapper.Extensions.Microsoft.DependencyInjection" Version="7.0.0" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="3.0.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="3.1.0" />
+    <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="3.1.0">
+      <PrivateAssets>all</PrivateAssets>
+      <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+    </PackageReference>
+  </ItemGroup>
+
+</Project>

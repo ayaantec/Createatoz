@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFrameworks>netcoreapp3.0</TargetFrameworks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="10.1.1" />
+    <PackageReference Include="AWSSDK.Extensions.NETCore.Setup" Version="3.3.101" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DD.Core\DD.Core.csproj" />
+    <ProjectReference Include="..\DD.Data\DD.Data.csproj" />
+    <ProjectReference Include="..\DD.Service\DD.Service.csproj" />
+  </ItemGroup>
+
+</Project>

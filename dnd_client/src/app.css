@@ -1,0 +1,10 @@
+ /********************
+ ** Utility Classes **
+ ********************/
+ .cur-point {cursor: pointer;}
+
+ .bg-Gray {
+     background-color: lightgray;
+ }
+
+ .opct-50 { opacity: 50%; }
